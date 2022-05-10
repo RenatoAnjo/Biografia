@@ -88,3 +88,9 @@ h1 {
 .gallery {
   margin-left: 120px;
 }
+.card {
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 35px;
+  
+}
