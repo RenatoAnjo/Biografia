@@ -1,11 +1,10 @@
 body {
   background-color: rgb(205, 223, 217);
   }
-a:link {
-  text-decoration-line: none;
+a {
+  color: inherit; 
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  }
+}
 #nav-principal {
   margin-top: 60px;
   border: solid 1px white;
@@ -15,94 +14,63 @@ a:link {
   background-color: white;
   margin-left: 120px;
   border-bottom: solid 1px;  
+  text-align: center;
+  font-size: 50px;
+  padding: 40px;
 }
-#header-principal {
-  margin-left:  15px;
-  margin-top: 40px;
-}
-#img-nav {
-  border-radius: 20%;
-  margin-top: 50px;
-  margin-left: 12px;
-  display: inline-block;
-}
-hr {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-ul {
-  list-style-type: none;
-  margin: 10;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  padding: 30px;
-  background-color: white;
-}
-.biografia {
-  border: solid 1px white;
+.organizacao-home {
   margin-right: 120px;
   background-color: white;
   margin-left: 120px;
+  border-bottom: solid 1px;  
+  text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
-h1 {
-  padding: none;
-  margin-left: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.container {
-  display: flex;
-  align-items: center;
-}
-.deslocamento {
-  margin-left: 40px;
-}
-.imag-escritorio {
-  width: 100%;
-  margin-top: 10px;
-}
-.texto {  
-  border: solid 0px white;
-  margin-right: 120px;
-  background-color: white;
-  margin-left: 120px;
+#margem {
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-right: 30px;
 }
 .rodape {
-  border: solid 0px white;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  background-color: gray;
   margin-right: 120px;
-  background-color:gray;
   margin-left: 120px;
-}
-.gallery {
-  margin-left: 120px;
-}
-.card {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
   text-align: center;
-  margin-top: 0px;
-  margin-left: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
-.textobio {
+.container{
+  display: flex;
+  justify-content: center;
+  margin-right: 120px;
+  margin-left: 120px;
+  background-color: white;
+  border-bottom: solid 1px;
+ }
+ .organizacao-home2 {
+  margin-right: 120px;
   background-color: white;
   margin-left: 120px;
-  margin-right: 120px;
-}
-.bio-milton {
-  margin-left: 20px;
-  margin-right: 20px;
+  border-bottom: solid 1px;  
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
-.font-bio {
-  font-family: Arial, Helvetica, sans-serif;
+#cv {
+  font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+  font-size: 19px;
+}
+.form-contato {
+  margin-left: 40px;
+}
+.organizacao-home3 {
+  margin-right: 120px;
+  background-color: white;
+  margin-left: 120px;
+  border-bottom: solid 1px;  
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
